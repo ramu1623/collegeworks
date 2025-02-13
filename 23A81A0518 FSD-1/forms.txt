@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>forms</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>section</th>
+				<th>optons</th>
+			</tr>
+			<tr>
+				<td><label for="name">enter name</label></td>
+				<td><input type="text" id="name" name="name"></td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<table>
+			<caption>student informaton</caption>
+			<tr>
+				<th>S.no</th>
+				<th>Name</th>
+				<th>Branch</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>mahesh</td>
+				<td>cse</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>suddher</td>
+				<td>ece</td>
+			</tr>
+
+		</table>
+	</body>
+</html>

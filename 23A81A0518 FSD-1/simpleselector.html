@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                background-color: aquamarine;
+            }
+            h1.simpleh1{
+                background-color: blue;
+            }
+            h2.simpleh2,p.simplep{
+                background-color: red;
+            }
+            .head {
+                background-color: blueviolet;
+            }
+            #itsh3 {
+                background-color: rgb(255, 0, 200);
+            }
+
+            div > h1 {
+                color: blue;
+            }
+            div p {
+                color: rgb(247, 6, 46);
+            }
+            div + p {
+                color: chocolate;
+            }
+            div ~ p {
+                background-color: darkslateblue;
+            }
+            .lastp::first-letter {
+                font-size: 30PX;
+                color: brown;
+            }
+            .lastp::before {
+                content: "pseudo element styles are applied " ;
+            }
+            .lastp::after {
+                content: "applied";
+                color:blue;
+            }
+            p::selection {
+                color: red;
+                background: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- comments in hmtl-->
+       
+        <h1 class="simpleh1">This is h1 tag styled with simple selectors</h1>
+        <h2 class="simpleh2">This is h2 tag styled with simple selectors</h2>
+        <h3 id="itsh3">This is h3 tag styled with simple selectors</h3>
+        <h4 class="head">This is h4 tag styled with simple selectors</h4>
+        <h5 class="head">This is h5 tag styled with simple selectors</h5>
+        <p class="simplep">This is p tag styled with simple selectors</p>
+        <div>
+            <h1>This is h1 tag styled with combinator selectors</h1>
+            <div> 
+                <p>This is p tag <b>styled</b> with combinator selectors</p>
+            </div>
+        </div>
+        <p>this is a outer paragraph adjacent sibling</p>
+        <p>this is an another paragraph outer the div</p>
+        <p class="lastp">The double colon replaced the single-colon notation for pseudo-elements in CSS3. This was an attempt from W3C to distinguish between pseudo-classes and pseudo-elements.</p>
+    </body>
+</html>

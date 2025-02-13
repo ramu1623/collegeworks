@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my first html program</title>
+</head>
+<body>
+	<ul type="square">
+		<li>mahesh</li>
+		<li>abhishek</li>
+		<li>devi sri prasad</li>
+	</ul>
+	<ol type="1">
+		<li>mahesh</li>
+		<li>abhishek</li>
+		<li>devi sri prasad</li>
+	</ol>
+		
+</body>
+</html>

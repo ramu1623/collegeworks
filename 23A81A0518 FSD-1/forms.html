@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>forms</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<style>
+			.tablefro
+		</style>
+	</head>
+	<body>	
+		<center >
+		<h1>FORMS</h1>
+		<form action="ex.html" target="_blank">
+		<table border="1"  class="tableform">
+			<tr>
+				<th>section</th>
+				<th>options</th>
+			</tr>
+			<tr>
+				
+				<td><label for="name">enter user name</label></td>
+				<td><input type="text" id="name" name="name" required></td>
+				
+			</tr>
+			<tr>
+				<td><label for="password">enter password</label></td>
+				<td><input type="password" id="password" name="password" required></td>
+				
+			</tr>
+			<tr>
+				<td><label for="number">enter roll number</label></td>
+				<td><input type="number" id="number" name="number" required></td>
+			</tr>
+			<tr>
+				<td><label for="date">enter dob</label></td>
+				<td><input type="date" id="date" name="date"></td>
+			</tr>
+			<tr>
+				<td><label for="lag">select languages known</label></td>
+				<td>
+					telugu<input type="checkbox" id="lag" name="lag" value="telugu">
+					hindi<input type="checkbox" id="lag" name="lag" value="hindi">
+					english<input type="checkbox" id="lag" name="lag" value="english">
+				</td>
+				
+			</tr>
+			<tr>
+				<td><label for="interest">select hobbies</label></td>
+				<td>
+					exercise<input type="radio" id="interest" name="interest" value="exercise">
+					reading<input type="radio" id="interest" name="interest" value="reading">
+					meditation<input type="radio" id="interest" name="interest" value="meditation">
+				</td>
+			</tr>
+			<tr>
+				<td><label for="branch">select branch</label></td>
+				<td>
+					<select id="branch" name="branch">
+						<option value="cse">cse </option>
+						<option value="ece ">ece </option>
+						<option value="eee ">eee </option>
+						<option value="mech">mech</option>
+						<option value="civil">civil</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<input type="submit"> 
+		<input type="button" value="done">
+		<input type="reset">
+		</form>
+		</center>
+	</body>
+</html>
